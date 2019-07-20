@@ -1,0 +1,24 @@
+.feature-list {
+  display: flex;
+  width: 1140px;
+  align-items: center;
+  margin: 0 auto;
+  height: 100vh;
+}
+
+.feature-item {
+  flex-grow: 1;
+  margin: 20px;
+  background-color: #6200ee;
+  border-radius: 7px;
+  height: 150px;
+  box-shadow: 0 0 21px -3px black;
+  transition: .2s ease-in;
+  transform: translateY(20px);
+  opacity: 0;
+}
+
+.feature-item.active{
+  opacity: 1;
+  transform: translateY(0);
+}
